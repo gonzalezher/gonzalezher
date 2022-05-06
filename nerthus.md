@@ -2,6 +2,7 @@
 layout: inner
 title: Nerthus
 permalink: /nerthus/
+published: true
 ---
 
 ![](/img/posts/nerthus_title_splash.jpg)
