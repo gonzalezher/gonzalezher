@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Nerthus
-permalink: /nerthus/
+permalink: /nerthus
 published: true
 ---
 
