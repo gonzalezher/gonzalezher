@@ -18,7 +18,7 @@ email: 'nachogonherdev@gmail.com'
 description: "I'm a game developer interested in making videogames from Spain. My favourite fields of videogame programming are gameplay and graphics. 
 I am a responsible person, I work hard and try to do my best. I am good at working with other people, with a good attitude and a great desire to learn from others."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gonzalezher.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://gonzalezher.github.io/gonzalezher/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'NachoGonHerDev'
 github_username: 'gonzalezher'
 medium_username: ''
