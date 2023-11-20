@@ -19,7 +19,7 @@ permalink: /voxelterrain/
 
 </div>
 
-- <font size="4"> Focus a lot on removing as many operations as possible from the rendering loops </font>
-- <font size="4"> Use pre-calculations </font>
-- <font size="4"> Reduce the bits needed to store the texture information </font>
+- <font size="4"> Focus a lot on removing as many operations as possible from the rendering loops. </font>
+- <font size="4"> Use pre-calculations. </font>
+- <font size="4"> Reduce the bits needed to store the texture information. </font>
 - <font size="4"> Try to replace expensive operations such as multiplication with additions. </font>
