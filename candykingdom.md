@@ -1,12 +1,11 @@
 ---
 layout: inner
-title: Nerthus
-permalink: /nerthus
-published: true
+title: Candy Kingdom
+permalink: /candykingdom
 ---
 
-![](/img/posts/nerthus_title_splash.jpg)
-## Nerthus: Einar's Fate
+![](/img/posts/candy_main_menu.png)
+## Candy Kingdom: Tower Defense
 
 This is one of my last projects in ESAT (in spanish, Escuela Superior de Arte y Tecnología) that I made with a team of 4 artists, 1 designer and 6 programmers, and also with 2 musicians from Berklee, and we used Unreal Engine 4 as our game engine.
 Nerthus: Einar's Fate is a frenetic third person shooter where you play as a Guardian in his mission to return the heart of Nerthus to its sacred place. You will need to face hordes of different types of

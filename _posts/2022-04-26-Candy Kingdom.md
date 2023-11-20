@@ -10,5 +10,4 @@ project_link: '/candykingdom'
 button_icon: ''
 button_text: 'Learn More'
 lead_text: "A game developed over 4 months for PS4."
-published: true
 ---
