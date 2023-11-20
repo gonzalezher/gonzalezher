@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Nacho González-Herrero Ruiz de Eguílaz."
-email: 'nachogonherdev@gmail.com'
+email: 'nachete2727@gmail.com'
 description: "I'm a game developer interested in making videogames from Spain. My favourite fields of videogame programming are gameplay and graphics. 
 I am a responsible person, I work hard and try to do my best. I am good at working with other people, with a good attitude and a great desire to learn from others."
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -90,7 +90,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2022 Nacho González-Herrero Ruiz de Eguílaz'
+footer_text: '© 2023 Nacho González-Herrero Ruiz de Eguílaz'
 admin_name: 'Nacho González-Herrero Ruiz de Eguílaz'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
