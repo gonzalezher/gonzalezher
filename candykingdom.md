@@ -5,11 +5,11 @@ permalink: /candykingdom
 ---
 
 ![](/img/posts/candy_main_menu.png)
-<div style="text-align: justify">
+
 ## Candy Kingdom: Tower Defense
-
+<div style="text-align: justify">
 This is a project that I made in SHU (Sheffield Hallam University) with a team of 3 artists, 1 designer and 4 programmers. We made this game for PS4, in our engine that we developed during the year using PS4 SDKs. This game is a tower defense where the player needs to place turrets in a level, with one or more paths, and defend it from hordes of enemies. It has two game modes, one that follows a number of 5 designed levels which get harder when you progress, and another one that generates a new level each time you play.
-
+</div>
 In this project I developed even more my communication skills inside a working group enviroment, and even I discovered some industry workflows like scrums, where we had meetings every week to know how was the work going. But apart from that, I focused on the audio, the collisions and a data-driven system for the resources.
 
 ### Audio
@@ -34,4 +34,3 @@ That's why we have made use of [Tiled](https://www.mapeditor.org/), an external 
 ![](/img/posts/candy_level1.png)
 Example of the first level of the game.
 
-</div>
