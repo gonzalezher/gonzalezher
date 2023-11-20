@@ -7,9 +7,13 @@ permalink: /rollengine/
 ![](/img/posts/rollengine_capture.png)
 ## RollEngine
 
-<p style="font-size:1.3em";"text-align:justify">
-This project consists of a graphics engine that I made with a classmate in my last year of ESAT. For this, we use libraries like GLFW, glm, or imgui to be able to perform rendering tasks, as well as to create an interface to be able to use all the functionalities of the engine. This engine was made mostly in C++ and with OpenGL, and also supports:
+<div style="text-align: justify">
+
+<p style="font-size:1.3em">
+    This project consists of a graphics engine that I made with a classmate in my last year of ESAT. For this, we use libraries like GLFW, glm, or imgui to be able to perform rendering tasks, as well as to create an interface to be able to use all the functionalities of the engine. This engine was made mostly in C++ and with OpenGL, and also supports:
 </p>
+
+</div>
 
 - <font size="4"> Geometries </font>
 - <font size="4"> Materials </font>
