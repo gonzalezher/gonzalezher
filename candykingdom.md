@@ -32,13 +32,13 @@ permalink: /candykingdom
     And we also had a function to be able to load audio files in memory.
 </p>
 
-### Collisions
+<h3> Collisions </h3>
 
 <p style="font-size:1.3em">
     The collision system in our game was a pretty simple approach of what is known as AABB collisions and Sphere collisions, so I just used some mathematical calculations with simple shapes to detect collisions between our game elements.
 </p>
 
-### Data-Driven Levels
+<h3> Data-Driven Levels </h3>
 
 <p style="font-size:1.3em">
     The last thing I took part of in this project was handling the designed levels inside and outside the engine. So I had to act as a "bridge" between the designer and the engine itself, so the task of testing this levels could be as easier as it could.
