@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Candy Kingdom'
-date: 2023-11-20 17:40:18
+date: 2021-09-15 09:27:18
 categories: game programming
 tags: Game PS4 Programming Custom Engine
 featured_image: '/img/posts/candy_screenshot.png'
