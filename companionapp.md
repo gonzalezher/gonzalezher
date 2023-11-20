@@ -15,14 +15,28 @@ permalink: /companionapp/
 
 </div>
 
-- <font size="4"> Login validation with data checks and necessary feedback. </font>
+<ul style="font-size:1.3em">
+    <li>Login validation with data checks and necessary feedback.</li>
+    <li>Sign up to create a new account.</li>
+    <li>Shared Preferences so that some user data remains on the device.</li>
+    <li>Fragments to change content in the same activity.</li>
+    <li>Data Ranking constructed from a fragment list.</li>
+    <li>JSON and Threads, so it can read data from JSON without blocking the main thread.</li>
+    <li>Firebase integration as the main database of the app.</li>
+</ul>
+
+<!-- - <font size="4"> Login validation with data checks and necessary feedback. </font>
 - <font size="4"> Sign up to create a new account. </font>
 - <font size="4"> Shared Preferences so that some user data remains on the device. </font>
 - <font size="4"> Fragments to change content in the same activity. </font>
 - <font size="4"> Data Ranking constructed from a fragment list. </font>
 - <font size="4"> JSON and Threads, so it can read data from JSON without blocking the main thread. </font>
-- <font size="4"> Firebase integration as the main database of the app. </font>
+- <font size="4"> Firebase integration as the main database of the app. </font> -->
 
 <div style="text-align: justify">
-It has also some tests to verify the correct functioning of the code, for example in the reordering of the ranking.
+
+<p style="font-size:1.3em">
+    It has also some tests to verify the correct functioning of the code, for example in the reordering of the ranking.
+</p>
+
 </div>
