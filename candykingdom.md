@@ -7,19 +7,27 @@ permalink: /candykingdom
 ![](/img/posts/candy_main_menu.png)
 ## Candy Kingdom: Tower Defense
 
-This is one of my last projects in ESAT (in spanish, Escuela Superior de Arte y Tecnología) that I made with a team of 4 artists, 1 designer and 6 programmers, and also with 2 musicians from Berklee, and we used Unreal Engine 4 as our game engine.
-Nerthus: Einar's Fate is a frenetic third person shooter where you play as a Guardian in his mission to return the heart of Nerthus to its sacred place. You will need to face hordes of different types of
-enemies, and defeat them while completing missions that appear throughout 4 levels and maps, and to do so, you will make use of elemental magics and spells.
+This is a project that I made in SHU (Sheffield Hallam University) with a team of 3 artists, 1 designer and 4 programmers. We made this game for PS4, in our engine that we developed during the year using PS4 SDKs. This game is a tower defense where the player needs to place turrets in a level, with one or more paths, and defend it from hordes of enemies. It has two game modes, one that follows a number of 5 designed levels which get harder when you progress, and another one that generates a new level each time you play.
 
-In this project, I focused on developing the AI, more specifically in creating the behaviour of 3 of the 4 enemies that the game has. This led to the realisation of everything related to behaviour trees, tasks
-and also blackboard keys. These enemies are:
+In this project I developed even more my communication skills inside a working group enviroment, and even I discovered some industry workflows like scrums, where we had meetings every week to know how was the work going. But apart from that, I focused on the audio, the collisions and a data-driven system for the resources.
 
+# Audio
 
-* <font size="4">The werewolf is a melee pawn that chases the player and tries to make an attack when he is close enough. </font>
-* <font size="4">The elf is a ranged pawn that chases the player but tries to attack him from a far distance with a bow, so the arrow makes an arc and tries to predict where the player is going to move. </font>
-* <font size="4">And finally the golem, wich has two versions and is the bigger one. The first one is the "jumper" and attacks the player jumping into him. The second one is the "rock-launcher", wich throws a boulder with the same logic of the elf attack, but can also knock down the player if it hits him. </font>
+The first functionality of the audio system was focused on handling a high level audio library from the PS4 API, which required to control the initialization, update and termination of the system.
 
+The second functionality focused on managing the state of the different audio sources, so things like play, pause, stop or resume audio sources, and also setting their principal values, such as volume, pitch and toggle looping.
 
-Apart from this, I also took care of setting up the nav mesh provided by UE4 for all levels, as well as making custom nav links to give enemies the ability to jump between the different height levels on the maps.
+And we also had a function to be able to load audio files in memory.
 
-You can also check the game in Steam [here](https://store.steampowered.com/app/1662670/Nerthus_Einars_Fate).
+# Collisions
+
+The collision system in our game was a pretty simple approach of what is known as AABB collisions and Sphere collisions, so I just used some mathematical calculations with simple shapes to detect collisions between our game elements.
+
+# Data-Driven Levels
+
+The last thing I took part of in this project was handling the designed levels inside and outside the engine. So I had to act as a "bridge" between the designer and the engine itself, so the task of testing this levels could be as easier as it could.
+
+That's why we have made use of [Tiled](https://www.mapeditor.org/), an external tool that is pretty useful for designing the levels' shape and layout. With this tool and a tileset, the designer could work on the levels by specifying a tile type for each tile in the level, and then export it into an xml, which I could read through code and load directly into the engine. The designers task was just to design the level, and then drop it in the correspondent directory, so the level could be seen in the engine.
+
+![](/img/posts/candy_level1.png)
+Example of the first level of the game.
